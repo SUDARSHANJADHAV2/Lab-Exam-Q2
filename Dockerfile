@@ -1,9 +1,8 @@
-FROM python:3.8-slim
+
+FROM python:3.11-slim
 
 WORKDIR /app
 
-COPY . .
- 
-EXPOSE 8080
+COPY square.py .
 
 CMD ["python", "square.py"]

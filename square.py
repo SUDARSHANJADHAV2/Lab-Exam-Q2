@@ -1,4 +1,4 @@
-   num = 7
-   square = num * num
-   print(f"The square of {num} is {square}")
-
+number = 5
+square = number * number
+print("Number:", number)
+print("Square:", square)
